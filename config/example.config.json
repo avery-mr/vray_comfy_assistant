@@ -1,0 +1,24 @@
+{
+  "pythonExe": "python",
+  "backend": "comfy-workflow",
+  "model": "gemini-nano-banana-2.1",
+  "fastModel": "gemini-nano-banana-2.1",
+  "apiRevision": "2026-05-20",
+  "imageLayerClass": "chaos.ref.external",
+  "imageLayerParentClass": "chaos.displayCorrection",
+  "imagePathProperties": ["image"],
+  "preferEffectsResult": true,
+  "layerName": "Comfy Results",
+  "blendMode": 26,
+  "opacity": 1.0,
+  "vfbOcioInput": "ACEScg",
+  "vfbOcioDisplay": "sRGB",
+  "vfbOcioView": "ACES 1.0 SDR-video",
+  "colorSpace": "sRGB display-referred PNG (VFB Display Correction left on when saving)",
+  "outputDir": "",
+  "comfy": {
+    "baseUrl": "https://cloud.comfy.org",
+    "workflow": "architectural-enhance",
+    "apiKey": ""
+  }
+}

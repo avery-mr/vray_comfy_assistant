@@ -1,0 +1,32 @@
+# Secrets. Share local.config.json out of band, never commit it.
+config/local.config.json
+config.local.json
+.env
+.env.*
+!.env.example
+
+# Generated runs, captures, and stills
+jobs/
+output/
+samples/
+probe/
+
+# Images anywhere else
+*.png
+*.jpg
+*.jpeg
+*.exr
+*.vrimg
+*.vrst
+
+# Python
+__pycache__/
+.venv/
+venv/
+*.pyc
+
+# Max / OS
+*.max
+*.bak
+Thumbs.db
+.DS_Store

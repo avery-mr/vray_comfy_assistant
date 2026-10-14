@@ -1,0 +1,4 @@
+# The floater uses comfy-workflow only.
+# Install into the Python that 3ds Max launches (see docs/setup.md):
+# pip install comfy-sdk>=0.5
+comfy-sdk>=0.5

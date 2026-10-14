@@ -1,0 +1,16 @@
+{
+  "id": "architectural-enhance",
+  "displayName": "Architectural Enhance",
+  "version": "0.1.0",
+  "workflowFile": "nanobana_wf_test_01.json",
+  "imageNode": "10",
+  "imageField": "image",
+  "promptNode": "20",
+  "promptField": "prompt",
+  "resolutionNode": "20",
+  "resolutionField": "model.resolution",
+  "thinkingNode": "20",
+  "thinkingField": "model.thinking_level",
+  "outputNode": "9",
+  "notes": "nanobana_wf_test_01: Load Image 10 → Nano Banana 2.1 (node 20) → ImageScale 22 → Save Image 9. The floater writes prompt and thinking_level. model.resolution is chosen from the snapshot's long side."
+}
